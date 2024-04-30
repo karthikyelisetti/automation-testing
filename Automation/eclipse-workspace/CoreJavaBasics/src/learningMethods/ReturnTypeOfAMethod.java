@@ -1,0 +1,42 @@
+package learningMethods;
+
+import java.time.LocalDate;
+
+/**
+ * Return Type of a method
+ * 
+ * 1. Every method will have a "return" statement to the end of a method.
+ * 
+ * between return and a semicolon (;) if no data is available then it is called
+ * as default return statement.
+ * 
+ * If compiler auto generated the statement, if the developers forgets to
+ * mention the statement then also it is known as default return statement.
+ * 
+ * If there is a value available in between return statement and a semicolon(;)
+ * then based on the data type of the value, the return statement of the method
+ * will change.
+ * 
+ * return statement always remains the last statement in the method
+ * 
+ * @author Rakesh
+ *
+ */
+
+public class ReturnTypeOfAMethod {
+
+	public static void main(String[] args) {
+
+		LocalDate date = currentDate();
+		System.out.println("Current Date is = "+date);
+	}
+	
+	public static LocalDate currentDate() {
+		
+		// process logic
+		LocalDate currentDate	 = java.time.LocalDate.now();
+		
+		return currentDate; // return statement
+	}
+
+}

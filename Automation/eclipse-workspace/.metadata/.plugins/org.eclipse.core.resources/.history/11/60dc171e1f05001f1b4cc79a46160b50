@@ -1,0 +1,28 @@
+package printStream;
+
+public class Students {
+	
+	
+	static String schoolName = "Siddhartha Residential School";
+	String name;
+	int rollNumber;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Students dtls = new Students();
+		
+		dtls.name = "Sri Aadvika";
+		dtls.rollNumber = 25;
+		dtls.s1();
+
+	}
+	
+	public void s1() {
+		
+		System.out.println("Name = " + name);
+		System.out.println("Roll Number = " + rollNumber);
+		System.out.println("School = " + schoolName);
+	}
+
+}

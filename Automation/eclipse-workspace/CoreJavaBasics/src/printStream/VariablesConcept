@@ -1,0 +1,22 @@
+Types of Variable
+
+1. Based on the location of declaration:
+	a. Local Variable / Temporary Variables
+		-- Rule for Local Variables -> Initialize the local variables with their default values at lest because JVM will not provide the default vault to it
+		-- Scope of local variable --> Local Variables are not accessible outside the block of its declaration
+		
+	b. Global Variable
+		1. Static variable
+		2. Non-static variable / Instance variable / data member
+		
+Scope of every Variable:
+
+2. Based on the type of value it holds
+	a. Primitive Type variables
+	b. Reference Type variables
+	
+Life Cycle of a variable:
+
+Declaration of a variable
+Initialization of a variable
+utilization of a variable

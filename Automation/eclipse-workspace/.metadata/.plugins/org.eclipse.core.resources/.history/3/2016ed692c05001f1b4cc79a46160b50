@@ -1,0 +1,28 @@
+package learningMethods;
+
+public class ArgumentedMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		m1(37);
+		m2("LearningMethods");
+		m3(false);
+
+	}
+	
+	//When we declare a variable in the methods it is know as argumented method
+	public static void m1(int args) {
+		System.out.println("Executing m1 ()");
+	}
+	
+	public static void m2(String name) {
+		//m1(32);
+		System.out.println("Executing m2 ()");
+	}
+	
+	public static void m3(boolean status) {
+		//m2("LearningMethods");
+		System.out.println("Executing m3 ()");
+	}
+
+}

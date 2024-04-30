@@ -1,0 +1,34 @@
+package printStream;
+
+public class LocalVariables {
+	// Global Variables
+	static double e;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Local Variables
+		
+		// Multi-line declaration and initialization
+		int number; //declaration
+		number = 30; // initialization
+		System.out.println("number = " + number); //utilization
+		
+		//Single line declaration and initialization
+		 int Number = 37;
+		 System.out.println("Number = " + Number);
+		 
+		 int NUMBER = 100;
+		 System.out.println("NUMBER = " + NUMBER);
+		 
+		 double d; // declaration but no initialization for local variable
+		 //System.out.println("double d " + d); //local variable is not initialized
+		 
+		 //Global v/s Local variable
+		 System.out.println("double e " + e);
+	}
+	
+	public static void m1() {
+		System.out.println("e = " + e);
+	}
+
+}

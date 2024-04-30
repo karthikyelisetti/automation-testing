@@ -1,0 +1,14 @@
+package printStream;
+
+public class Students {
+	
+	
+	static String schoolName = "Siddhartha Residential School";
+	String name;
+	int rollNumber;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

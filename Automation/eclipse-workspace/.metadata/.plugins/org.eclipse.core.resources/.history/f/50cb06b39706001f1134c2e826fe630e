@@ -1,0 +1,24 @@
+package Overriding;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void m1() {
+		System.out.println("Executing m4() in B");
+	}
+	
+	public static void m2() {
+		m1();
+		System.out.println("Executing m5() in B");
+	}
+	
+	public static void m3() {
+		m2();
+		System.out.println("Executing m3() in B");
+	}
+
+}
