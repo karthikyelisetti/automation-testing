@@ -1,0 +1,10 @@
+package AbstractionAndInterface;
+
+public interface WebDriver {
+	
+	void get();
+	
+	abstract void maximize();
+	
+	public abstract void close();
+}

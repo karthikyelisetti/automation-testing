@@ -14,6 +14,8 @@ public class Students {
 		
 		dtls.name = "Sri Aadvika";
 		dtls.rollNumber = 25;
+		// static variables are the class level variables, hence once changed they
+		// will remain as it is.
 		schoolName = "Jubilee Hills Public School";
 		dtls.s1();
 		

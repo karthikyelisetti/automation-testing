@@ -1,0 +1,12 @@
+package AbstractionAndInterface;
+
+public interface WebDriver {
+	
+	String name = "Selenium";
+	
+	void get();
+	
+	abstract void maximize();
+	
+	public abstract void close();
+}

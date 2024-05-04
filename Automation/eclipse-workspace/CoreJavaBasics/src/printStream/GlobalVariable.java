@@ -4,6 +4,11 @@ public class GlobalVariable {
 	
 	static float var = 9.8f;
 	int a = 300; // non-static // Instance Variables
+	
+	// For the global variables, declaration and initialization in single line is
+	// must.
+	// static char ch; // declaration
+	// ch = 30; // Initialization
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		

@@ -7,6 +7,7 @@ public abstract class Scenario2 {
 		//Scenario2 s = new Scenario2(); //Cannot Instantiate Scenario2
 	}
 	
+	//0% abstraction
 	public void m1() {
 		
 	}
